@@ -1,0 +1,135 @@
+body {
+    font-family: 'Anuphan', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+  .link {
+    text-decoration: none;
+  }
+
+  
+.header {
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.header-logo-one {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  padding-left: 30px;
+}
+
+.header-logo-two {
+color: #2e2f42;
+margin-right: 75px;
+
+}
+.header-items-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: var(--main-text-color);
+}
+
+.header-items-link:hover,
+.header-items-link:focus {
+  color: #404bbf;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-items {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+
+.header-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: #404bbf;
+}
+
+.header-adress {
+  font-style: normal;
+}
+
+.header-flex {
+  display: flex;
+gap: 40px;
+margin-left:330px;
+}
+
+.sansan {
+  display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.bak {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../image/7.jpg);
+  background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding-bottom: 50px;
+}
+
+  .sanya-h {
+    color:#fff;
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 250px;
+  }
+  .sanya-bot {
+
+
+  }
+
+  .von {
+    color: #e3e3e9;
+    width: min-content;
+  }
